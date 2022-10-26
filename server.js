@@ -1,6 +1,6 @@
 const express = require('express');
 const db = require('./db')
-const PORT = 3000;
+const PORT = 9000;
 const userModel = require('./message')
 
 
