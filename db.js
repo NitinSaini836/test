@@ -1,6 +1,8 @@
-module.exports.init=function()
+
+ const mongoose = require('mongoose');
+module.exports.connexion=function()
 {
-  const mongoose = require('mongoose');
+ 
 mongoose.connect('mongodb+srv://root:root%401234@cluster0.8w5kds9.mongodb.net/ecommerce?retryWrites=true&w=majority')
 
 
